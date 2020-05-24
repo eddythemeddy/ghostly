@@ -1,24 +1,21 @@
 {
   "files": {
     "main.css": "./static/css/main.31933722.chunk.css",
-    "main.js": "./static/js/main.e95d4df2.chunk.js",
-    "main.js.map": "./static/js/main.e95d4df2.chunk.js.map",
+    "main.js": "./static/js/main.bff3c9a7.chunk.js",
+    "main.js.map": "./static/js/main.bff3c9a7.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.4f92633c.js",
     "runtime-main.js.map": "./static/js/runtime-main.4f92633c.js.map",
-    "static/js/2.32cc42d7.chunk.js": "./static/js/2.32cc42d7.chunk.js",
-    "static/js/2.32cc42d7.chunk.js.map": "./static/js/2.32cc42d7.chunk.js.map",
+    "static/js/2.47ba66ef.chunk.js": "./static/js/2.47ba66ef.chunk.js",
+    "static/js/2.47ba66ef.chunk.js.map": "./static/js/2.47ba66ef.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.2e46aa559f06654ba942e9596d8e90c1.js": "./precache-manifest.2e46aa559f06654ba942e9596d8e90c1.js",
+    "precache-manifest.d817b25462e341c6502fe65b3f7fe71b.js": "./precache-manifest.d817b25462e341c6502fe65b3f7fe71b.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.31933722.chunk.css.map": "./static/css/main.31933722.chunk.css.map",
-    "static/js/2.32cc42d7.chunk.js.LICENSE.txt": "./static/js/2.32cc42d7.chunk.js.LICENSE.txt",
+    "static/js/2.47ba66ef.chunk.js.LICENSE.txt": "./static/js/2.47ba66ef.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "./static/media/1.bae2ebbf.jpg",
     "static/media/2.png": "./static/media/2.2c6a6672.png",
     "static/media/3.jpg": "./static/media/3.7deaf743.jpg",
     "static/media/4.jpg": "./static/media/4.77e1a5bf.jpg",
-    "static/media/client-1.jpg": "./static/media/client-1.0a520c42.jpg",
-    "static/media/client-2.jpg": "./static/media/client-2.4c2d70fa.jpg",
-    "static/media/client-3.jpg": "./static/media/client-3.86a515e0.jpg",
     "static/media/feature-image-3.png": "./static/media/feature-image-3.2d3a351c.png",
     "static/media/feature-image-4.png": "./static/media/feature-image-4.2fda07cc.png",
     "static/media/hero-1-2.png": "./static/media/hero-1-2.51f8c097.png",
@@ -26,15 +23,12 @@
     "static/media/logo-2.svg": "./static/media/logo-2.ae3b51c7.svg",
     "static/media/logo-3.svg": "./static/media/logo-3.c83f3d00.svg",
     "static/media/logo-4.svg": "./static/media/logo-4.b494299f.svg",
-    "static/media/logo-5-light.svg": "./static/media/logo-5-light.b5109301.svg",
-    "static/media/logo-5.svg": "./static/media/logo-5.fd426d1a.svg",
-    "static/media/logo-7-light.svg": "./static/media/logo-7-light.9c8abadb.svg",
-    "static/media/slack-logo-light.svg": "./static/media/slack-logo-light.1f4236f1.svg"
+    "static/media/logo-5.svg": "./static/media/logo-5.fd426d1a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4f92633c.js",
-    "static/js/2.32cc42d7.chunk.js",
+    "static/js/2.47ba66ef.chunk.js",
     "static/css/main.31933722.chunk.css",
-    "static/js/main.e95d4df2.chunk.js"
+    "static/js/main.bff3c9a7.chunk.js"
   ]
 }
