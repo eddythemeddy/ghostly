@@ -4,9 +4,9 @@ use Postmark\PostmarkClient;
 
 class MailHelper {
 
-	const FROM_MAIL = 'info@scouty.io';
-	const FROM_NAME = 'Talenitics';
-	const API_KEY = '9090717b-61d1-4e63-b6e4-c6c3246acbce';
+	const FROM_MAIL = 'info@ghostly.kitchen';
+	const FROM_NAME = 'Ghostly';
+	const API_KEY = '8365f97a-0552-467d-8e4b-6cfac21f4910';
 	const EMAIL = 'info@scouty.io';
 
 	private $logoImg = 'http://scouty.io/assets/public/img/logo-lg-blue.png';

@@ -1,4 +1,5 @@
 <?php
+use Postmark\PostmarkClient;
 
 class Login extends Controller {
 
@@ -23,19 +24,20 @@ class Login extends Controller {
 
   }
 
-  public function logout() {
-    
-    unset($_SESSION['scouty_email']);
-    unset($_SESSION['scouty_user_id']);
-    unset($_SESSION['scouty_username']);
-    unset($_SESSION['scouty_name']);
-    unset($_SESSION['scouty_firstname']);
-    unset($_SESSION['scouty_lastname']);
-    unset($_SESSION['scouty_company_id']);
-    unset($_SESSION['scouty_menu_status']);
-    
-    header( "refresh:0;". _SITEROOT_ );
-    exit;
+  public function test() {
+
+    $client = new PostmarkClient("8365f97a-0552-467d-8e4b-6cfac21f4910");
+
+    // Send an email:
+    $sendResult = $client->sendEmail(
+      "info@ghostly.kitchen",
+      "info@ghostly.kitchen",
+      "Hello from Postmark!",
+      "This is just a friendly 'hello' from your friends at Postmark."
+    );
+
+
+    var_dump($sendResult);
   }
 
 }
