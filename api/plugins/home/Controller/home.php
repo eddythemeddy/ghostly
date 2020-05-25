@@ -11,13 +11,14 @@ class Home extends Controller {
 
   public function index() {
 
-    if(!empty($_POST['email'])) {
+    if(!empty($_POST['email']) && !empty($_POST['kitchen'])) {
 
       $email = $this->eqDb->escape($_POST['email']);
+
       $this->eqDb->where('email', $email);
       $check = $this->eqDb->get('leads', null, [
         'id',
-        'email'
+        'email',
       ]);
 
       if($check) {
@@ -29,13 +30,14 @@ class Home extends Controller {
       }
 
       $create = $this->eqDb->insert('leads', [
-        'email' => $email
+        'email' => $email,
+        'kitchen' => $kitchen
       ]);
 
       if($create) {
         echo json_encode([
           'r' => 'success',
-          'message' => ''
+          'message' => 'Thank you for joining us.  We will contact you soon!'
         ]);
       }
     }
